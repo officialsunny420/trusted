@@ -1,0 +1,9 @@
+$(document).on('change','select',function(e){
+		 $(this).next("p.error").remove();
+	});
+	$(document).on('focus','input',function(e){
+		 $(this).next("p.error").remove();
+	});
+	$(document).on('change','input',function(e){
+		 $(this).next("p.error").remove();
+	});

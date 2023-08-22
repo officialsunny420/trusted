@@ -1,0 +1,131 @@
+.submission-table h5.title {
+    font-size: 17px;
+    font-weight: 600;
+    margin: 17px 0 10px;
+}
+.submission-table  h5.sub_title {
+    margin: 0 0 21px;
+}
+.submission-table .submission-label label {
+    font-weight: 400;
+    margin: 0 0 2px;
+    color: #000000;
+    position: relative;
+    padding: 0 0 0 13px;
+    display: block;
+}
+
+.submission-table .submission-label p {
+    color: #4b49ac;
+    position: relative;
+    padding-left: 13px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.submission-table .submission-label label:before {
+    content: "";
+    height: 4px;
+    width: 4px;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    border-radius: 100%;
+}
+.submission-table .submission-label {
+    margin: 7px 0 4px;
+}
+
+
+.submission-table .submission-p {
+    padding-left: 0;
+}
+
+.submission-table h4.card-title {
+    margin-bottom: 10px;
+}
+
+
+.manage-form-add .form-group h4.card-title {
+    font-size: 17px;
+}
+.manage-form-add .form-group input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    top: -1px;
+    margin: 0 3px 0 0;
+}
+.section-midd h5.card-title {
+    display: inline-block;
+    font-size: 15px;
+    vertical-align: middle;
+    margin: 0;
+}
+.manage-form-add .form-group h6.card-title {
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+.section-midd .section-heading {
+    margin: 0 0 0;
+}
+.manage-form-add .section {
+    padding: 0;
+}
+.section-midd {
+    background: #fff;
+    padding: 20px 0px 10px 0px;
+    margin: 0 0 20px 0px;
+    border-radius: 15px;
+}
+.section-midd .form-group {
+    margin: 0 0 10px;
+}
+.section-midd .form-group label {
+    margin: 0 0 4px;
+}
+.field_section .row {
+    display: block !important;
+}
+.field_section .row .row {
+    display: flex !important;
+    margin: 0 0 20px!important;
+}
+.btnarea {
+    display: flex !important;
+}
+.btnarea .submit-area {
+    width: 70%;
+}
+.btnarea .export-btn {
+    width: 30%;
+    text-align:right;
+}
+.btnarea .export-btn button.btn {
+    line-height: 19px;
+    height: 35px;
+}
+@media(max-width:768px){
+    .btnarea .submit-area {
+    width: 60%;
+}
+.btnarea .export-btn {
+    width: 40%;
+  
+}
+}
+@media(max-width:425px){
+    .btnarea .export-btn {
+    width: 37%;
+
+}
+.btnarea .submit-area {
+    width: 64%;
+}
+.btnarea .export-btn button.btn {
+    line-height: 19px;
+    height: 35px;
+}
+}
